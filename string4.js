@@ -3,7 +3,7 @@ const titleCase = (name) => {
     let first =  name.first_name.slice(0,1).toUpperCase() + name.first_name.slice(1).toLowerCase();
     let middle = ""
 
-    if(typeof name.middle_name === 'string'){
+    if(name.middle_name){
 
          middle = name.middle_name.slice(0,1).toUpperCase() + name.middle_name.slice(1).toLowerCase();
          middle = middle + " "

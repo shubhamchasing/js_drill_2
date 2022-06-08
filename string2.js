@@ -5,8 +5,8 @@ const ipv4ToArr = (ipv4) => {
 
     arr.forEach(item => {
         num = parseInt(item)
-        
-        if (num.toString().length === item.length && !Number.isNaN(num)){
+        console.log(num)
+        if (num.toString().length === item.length && !Number.isNaN(num) && 0 <= num && num <= 255){
                 ipv4Arr.push(num) 
             }
 
