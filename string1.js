@@ -7,9 +7,9 @@ const strToNum = (...args)=>{
 
         let temp = item.replace("$","");
             temp  = temp.replaceAll(",",'')
-        console.log(temp)
+       // console.log(temp)
         const num = parseFloat(temp);
-        console.log(num)
+      //  console.log(num)
         if (temp.length === (num.toString().length))
          {
             numberArr.push(num)
