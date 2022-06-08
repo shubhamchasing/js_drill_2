@@ -5,13 +5,11 @@ const arrToStr = (stringArr) => {
     for( let i = 0; i < stringArr.length; i++){
 
         ans = ans + " " + stringArr[i];
-
-        if(i === stringArr.length - 1){
-
-            ans = ans.trim()
-            ans = ans + ".";
-        }
+        
     }
+   // console.log(ans)
+    ans = ans.trim()
+    ans = ans + ".";
     return ans;
  }
 
